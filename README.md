@@ -69,7 +69,7 @@ python evaluation.py
 ```
 
 * Test for Synthia to Cityscapes.
-  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the 'test_mIoU16' function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you have any good implementation for this issue, please pull a request :)
+  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the `test_mIoU16` function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you have any good implementation for this issue, please pull a request :)
 
 
 ## Empirical Observations 
