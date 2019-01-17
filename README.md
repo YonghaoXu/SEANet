@@ -69,9 +69,12 @@ python evaluation.py
 ```
 
 * Test for Synthia to Cityscapes.
-  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the `test_mIoU16` function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you have any good implementation for this issue, please pull a request :)
+  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the `test_mIoU16` function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you want to share your implementation for this issue, please pull a request :)
 
 
 ## Empirical Observations 
 * Following the previous research setting in this task, we check the mIoU value on the target domain after every 500 iterations. A lower frequency for the checking would accelerate the network training, but may also miss the best performance.
 * A large `--attention_threshold` would be detrimental to the performance of the framework. Empirically, 0 to 0.3 is a suitable range for this parameter.
+
+## Multi-GPU Training
+* This repo is tested with a batch size of 1 using a single GPU. For a larger batch size with multi-GPU training, the codes may need to be modified. If you want to share your implementation for this issue, please pull a request :)
