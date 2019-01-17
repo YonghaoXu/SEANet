@@ -75,6 +75,7 @@ python evaluation.py
 ## Empirical Observations 
 * Following the previous research setting in this task, we check the mIoU value on the target domain after every 500 iterations. A lower frequency for the checking would accelerate the network training, but may also miss the best performance.
 * A large `--attention_threshold` would be detrimental to the performance of the framework. Empirically, 0 to 0.3 is a suitable range for this parameter.
+* Best performance is usually obtained within 6 epochs. For the GTA-5 to Cityscapes case, the mIoU can reach about 34% to 35%. For the Synthia to Cityscapes case, the mIoU can reach about 36% to 37%.
 
 ## Multi-GPU Training
 * This repo is tested with a batch size of 1 using a single GPU. For a larger batch size with multi-GPU training, the codes may need to be modified. If you want to share your implementation for this issue, please pull a request :)
