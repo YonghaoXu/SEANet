@@ -1,6 +1,7 @@
-# Hyperspectral Image Classification via a Random Patches Network
+# Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation
 
-Matlab implementation of our method for hyperspectral image classification.
+Pytorch implementation of our method for domain adaptation in semantic segmentation task.
+
 
 ![](Figure/Framework.jpg)
 
