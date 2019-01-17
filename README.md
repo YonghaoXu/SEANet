@@ -60,13 +60,17 @@ python SEAN_Synthia.py
 ```  
 
 ## Evaluation
+* Test for GTA-5 to Cityscapes.
   - Change the default path of `--data_dir` in `evaluation.py` with your Cityscapes dataset folder.
   - Change the default path of `--restore_from` in `evaluation.py` with your trained model path. You can also download our [GTA-5 to Cityscapes model](https://drive.google.com/open?id=1g-NSAaHxkvru4G0lBNolmcioH8elCoqo) for a look.
-  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the 'test_mIoU16' function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you have good implementation for this issue, please pull a request.
 
 ```
 python evaluation.py
 ```
+
+* Test for Synthia to Cityscapes.
+  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the 'test_mIoU16' function. Besides, since there are only 16 categories in common, the codes for writing the segmentation maps parts need to be further modified. If you have any good implementation for this issue, please pull a request :)
+
 
 ## Empirical Observations 
 * Following the previous research setting in this task, we check the mIoU value on the target domain after every 500 iterations. A lower frequency for the checking would accelerate the network training, but may also miss the best performance.
