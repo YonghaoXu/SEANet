@@ -69,7 +69,7 @@ python evaluation.py
 ```
 
 * Test for Synthia to Cityscapes.
-  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the `test_mIoU16` function. Since there are only 16 categories in common in this case, the codes for writing the segmentation maps parts need to be further modified. If you want to share your implementation for this issue, please pull a request.
+  - For evaluation on Synthia to Cityscapes case, please replace the `test_mIoU` function in `evaluation.py` with the `test_mIoU16` function. Since there are only 16 categories in common in this case, the code for writing the segmentation maps parts needs to be further modified. If you want to share your implementation for this issue, please pull a request.
 
 
 ## Empirical Observations 
@@ -78,4 +78,4 @@ python evaluation.py
 * Best performance is usually obtained within 6 epochs. For the GTA-5 to Cityscapes case, the mIoU can reach about 34% to 35%. For the Synthia to Cityscapes case, the mIoU can reach about 36% to 37%.
 
 ## Multi-GPU Training
-* This repo is tested with a batch size of 1 using a single GPU. For a larger batch size with multi-GPU training, the codes may need to be modified. If you want to share your implementation for this issue, please pull a request.
+* This repo is tested with a batch size of 1 using a single GPU. For a larger batch size with multi-GPU training, the code may need to be modified. If you want to share your implementation for this issue, please pull a request.
