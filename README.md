@@ -8,7 +8,7 @@ Pytorch implementation of our method for domain adaptation in semantic segmentat
 ## Paper
 Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation
 
-Please cite our papers if you find it useful for your research.
+Please cite our paper if you find it useful for your research.
 
 ```
 @inproceedings{SEAN,
