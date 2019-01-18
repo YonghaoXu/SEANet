@@ -30,7 +30,7 @@ git clone https://github.com/YonghaoXu/SEANet
 ## Dataset
 * Download the [GTA-5 Dataset](https://download.visinf.tu-darmstadt.de/data/from_games/).
 
-* Download the [SYNTHIA-RAND-CITYSCAPES Dataset](synthia-dataset.net/download/808/).
+* Download the [SYNTHIA-RAND-CITYSCAPES Dataset](http://synthia-dataset.net/download/808/).
   - Note: The ground-truth data in the original SYNTHIA-RAND-CITYSCAPES dataset should be adjusted to be consistent with those in the cityscapes dataset. Here we attach the transformed [ground-truth data](https://drive.google.com/open?id=1GvdXSG4nq8Px0xYs3ate0reNNKtci2dS) for the SYNTHIA-RAND-CITYSCAPES dataset.
 
 * Download the [Cityscapes Dataset](https://www.cityscapes-dataset.com/).
