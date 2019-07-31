@@ -6,7 +6,7 @@ Pytorch implementation of our method for domain adaptation in semantic segmentat
 ![](Figure/Framework.jpg)
 
 ## Paper
-Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation
+[Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation](https://m.aaai.org/ojs/index.php/AAAI/article/view/4500)
 
 Please cite our paper if you find it useful for your research.
 
@@ -14,8 +14,10 @@ Please cite our paper if you find it useful for your research.
 @inproceedings{SEAN,
   title={Self-Ensembling Attention Networks: Addressing Domain Shift for Semantic Segmentation},
   author={Xu, Yonghao and Du, Bo and Zhang, Lefei and Zhang, Qian and Wang, Guoli and Zhang, Liangpei},
-  booktitle={Thirty-Third AAAI Conference on Artificial Intelligence},
-  year={2019},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={33},
+  pages={5581--5588},
+  year={2019}
 }
 ```
 
@@ -35,7 +37,7 @@ git clone https://github.com/YonghaoXu/SEANet
 
 * Download the [Cityscapes Dataset](https://www.cityscapes-dataset.com/).
 
-## Pretrained Model Utilized in our Experiment
+## Pretrained Model
 * Download the pretrained [VGG-16 Model](http://drive.google.com/uc?id=0B9P1L--7Wd2vT0FtdThWREhjNkU).
 
 ## Training
