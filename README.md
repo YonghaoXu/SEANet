@@ -38,7 +38,7 @@ git clone https://github.com/YonghaoXu/SEANet
 * Download the [Cityscapes Dataset](https://www.cityscapes-dataset.com/).
 
 ## Pretrained Model
-* Download the pretrained [VGG-16 Model](http://drive.google.com/uc?id=0B9P1L--7Wd2vT0FtdThWREhjNkU).
+* Download the pretrained [VGG-16 Model](https://drive.google.com/file/d/1PGuOb-ZIOc10aMGOxj5xFSubi8mkVXaq/view?usp=sharing).
 
 ## Training
 * Training for GTA-5 to Cityscapes.
